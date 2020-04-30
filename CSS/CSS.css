@@ -1,4 +1,6 @@
-
+body{
+    background-color:black;
+}
 .navbar
 {
    background-color:black;
@@ -16,12 +18,11 @@
     transition: all 0.2s linear;
 
 }
-.nav-link:hover, .nav-link:focus{
+.navbar-dark, .nav-link:hover, .nav-link:focus{
     color: #20c20e;
 }
 .Background-Image{
     width:100%;
-    height:50%;
 }
 .navbar-toggler{
     border:0px;
@@ -29,4 +30,8 @@
 }
 .custom-toggler .navbar-toggler-icon{
     background-image:url(../Images/NavbarMenu.png);
+}
+.py-4
+{
+    color:#20c20e;
 }
