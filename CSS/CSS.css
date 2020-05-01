@@ -148,3 +148,32 @@ body{
     }
     
     }
+    #AboutText{
+      width: 100%; 
+   border-bottom: 1px solid white; 
+   line-height: 0.1em;
+   margin-top:10 0 20px;
+   margin-bottom:50px;
+    }
+    #AboutText span { 
+      background:#fff; 
+      padding:0 10px; 
+      border-radius:10px;
+  }
+    h5{
+  color:var(--DesiredColor);
+  margin-top:50px;
+}
+#WhiteText
+{
+  color: #eae3e3;
+}
+#LinkedIn
+{
+  color:var(--DesiredColor);
+  transition: all 0.2s linear;
+}
+#LinkedIn:hover
+{
+  color:#b148d2;
+}
