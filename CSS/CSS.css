@@ -14,9 +14,10 @@ body{
 }
 .nav-link
 {
-    color:white;
+    padding-bottom:2%;
+    color: #eae3e3;
     transition: all 0.2s linear;
-
+    font-size:110%;
 }
 .navbar-dark, .nav-link:hover, .nav-link:focus{
     color: #20c20e;
@@ -34,4 +35,8 @@ body{
 .py-4
 {
     color:#20c20e;
+}
+.Logo{
+    width:13%;
+    padding-right:2%;
 }
