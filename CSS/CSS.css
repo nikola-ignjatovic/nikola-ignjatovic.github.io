@@ -209,13 +209,18 @@ hr{
     
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 500px) {
       .Background-Image{
-        height:400px;
+        height:250px;
       }
     }
     @media only screen and (max-width: 400px) {
       .Background-Image{
-        height:266px;
+        height:220px;
+      }
+    }
+    @media only screen and (max-width: 347px) {
+      .Background-Image{
+        height:270px;
       }
     }
