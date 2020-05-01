@@ -32,7 +32,7 @@ body{
 .py-4
 {
     color: #eae3e3;
-    text-shadow: 0 0 2px var(--DesiredColor); 
+    text-shadow: 0 0 3px var(--DesiredColor); 
 }
 .Logo{
     padding-right:2%;
@@ -99,6 +99,61 @@ body{
     background-color: #eae3e3;
     border: none;
    }
+    #AboutText{
+      width: 100%; 
+   border-bottom: 1px solid white; 
+   line-height: 0.1em;
+   margin-top:10 0 20px;
+   margin-bottom:50px;
+    }
+    #AboutText span { 
+      background:#fff; 
+      padding:0 10px; 
+      border-radius:10px;
+  }
+    h5{
+  color:var(--DesiredColor);
+  margin-top:50px;
+}
+#WhiteText
+{
+  color: #eae3e3;
+}
+#LinkedIn
+{
+  color:var(--DesiredColor);
+  transition: all 0.2s linear;
+}
+#LinkedIn:hover
+{
+  color:rgba(0,255,255,0.7);
+}
+.MyImage
+{
+  border-radius:50%;
+  width:200px;
+}
+.MyImagee::before,
+.MyImagee::after{
+  flex: 1;
+  content: '';
+  height: 1px;
+  background:#eae3e3;
+}
+.MyImagee{
+  display: flex;
+  align-items: center;
+}
+#DownloadCv{
+  color:var(--DesiredColor);
+  transition: all 0.2s linear;
+}
+#DownloadCv:hover{
+  color:#b148d2;
+}
+.Background-Image-About{
+  margin-bottom:-100px;
+}
     @keyframes SediJedanAnimation {
     /*from {background-image: url('../pictures/BEFORE.jpg')}
     to {background-image: url('../pictures/AFTER.jpg')}*/
@@ -148,32 +203,3 @@ body{
     }
     
     }
-    #AboutText{
-      width: 100%; 
-   border-bottom: 1px solid white; 
-   line-height: 0.1em;
-   margin-top:10 0 20px;
-   margin-bottom:50px;
-    }
-    #AboutText span { 
-      background:#fff; 
-      padding:0 10px; 
-      border-radius:10px;
-  }
-    h5{
-  color:var(--DesiredColor);
-  margin-top:50px;
-}
-#WhiteText
-{
-  color: #eae3e3;
-}
-#LinkedIn
-{
-  color:var(--DesiredColor);
-  transition: all 0.2s linear;
-}
-#LinkedIn:hover
-{
-  color:#b148d2;
-}
