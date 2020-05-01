@@ -4,13 +4,14 @@ body{
 .navbar
 {
    background-color:black;
-   border-bottom:2px solid #20c20e;
+   border-bottom:2px solid var(--DesiredColor);
    position:fixed;
    width:100%;
+   z-index:9999;
 }
 .Name
 {
-    color:#20c20e;
+    color:var(--DesiredColor);
 }
 .nav-link
 {
@@ -20,23 +21,130 @@ body{
     font-size:110%;
 }
 .navbar-dark, .nav-link:hover, .nav-link:focus{
-    color: #20c20e;
+    color: var(--DesiredColor);
 }
 .Background-Image{
     width:100%;
 }
 .navbar-toggler{
-    border:0px;
-    
-}
-.custom-toggler .navbar-toggler-icon{
-    background-image:url(../Images/NavbarMenu.png);
+    border:0px;   
 }
 .py-4
 {
-    color:#20c20e;
+    color: #eae3e3;
+    text-shadow: 0 0 2px var(--DesiredColor); 
 }
 .Logo{
-    width:13%;
     padding-right:2%;
 }
+/* Parallax */
+
+#parallax-image1{
+    animation-name: myfirst;
+    animation-iteration-count: infinite;
+    animation-duration:6s;
+    animation-direction: alternate;
+    background-image: url(../Images/Before.jpg);
+    height:1080px;
+    margin-bottom:50px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100%;
+  }
+  #parallax-image2{
+    animation-name: SediJedanAnimation;
+    animation-iteration-count: infinite;
+    animation-duration:9s;
+    animation-direction: alternate;
+    background-image: url(../Images/SediJedan1.jpeg);
+    height:1080px;
+    margin-bottom:50px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100%;
+  }
+  #parallax-image3{
+    background-image: url(../Videos/GdePadatePic.gif);
+    height:1080px;
+    margin-bottom:50px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100%;
+  }
+  .paratext{
+    color:var(--DesiredColor);
+  }
+
+.paratext2{
+    color:#eae3e3;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+    text-shadow: 0 0 7px #FF0000; 
+  }
+  .Link
+  {
+      color:#eae3e3;
+      transition: all 0.2s linear;
+  }
+  .Link:hover{
+    color: #eae3e3;
+    text-shadow: 0 0 2px var(--DesiredColor);
+}
+   hr{
+    height: 1px;
+    color: #eae3e3;
+    background-color: #eae3e3;
+    border: none;
+   }
+    @keyframes SediJedanAnimation {
+    /*from {background-image: url('../pictures/BEFORE.jpg')}
+    to {background-image: url('../pictures/AFTER.jpg')}*/
+    0%,16%
+    {
+    background-image: url('../Images/SediJedan2.jpeg')
+    }
+    16%,32%
+    {
+    
+    }
+    32%,48%
+    {
+    background-image: url('../Images/SediJedan3.jpeg')
+    }
+    48%,64%
+    {
+    
+    }
+    64%,80%
+    {
+    background-image: url('../Images/SediJedan1.jpeg')
+    }
+    80%,100%
+    {
+    
+    }
+    
+    }@keyframes myfirst {
+    /*from {background-image: url('../pictures/BEFORE.jpg')}
+    to {background-image: url('../pictures/AFTER.jpg')}*/
+    0%,25%
+    {
+      background-image: url('../Images/BEFORE.jpg')
+    }
+    25%,50%
+    {
+    
+    }
+    50%,75%
+    {
+      background-image: url('../Images/AFTER.jpg')
+    }
+    75%,100%
+    {
+    
+    }
+    
+    }
