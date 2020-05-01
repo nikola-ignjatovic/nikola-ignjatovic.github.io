@@ -209,19 +209,22 @@ hr{
     
     }
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 670px) {
       .Background-Image{
-        height:250px;
+        height:2500px;
       }
     }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 570px) {
       .Background-Image{
-        height:220px;
+        height:240px;
       }
-    }
-    @media only screen and (max-width: 346px) {
-      .Background-Image{
-        height:270px;
-      }
+      @media only screen and (max-width: 470px) {
+        .Background-Image{
+          height:230px;
+        }
+        @media only screen and (max-width: 374px) {
+          .Background-Image{
+            height:270px;
+          }
     }
     /**/
