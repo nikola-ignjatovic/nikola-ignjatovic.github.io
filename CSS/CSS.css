@@ -1,5 +1,17 @@
+/*HTML*/
+
 body{
     background-color:black;
+}
+hr{
+  height: 1px;
+  color: #eae3e3;
+  background-color: #eae3e3;
+  border: none;
+ }
+ h5{
+  color:var(--DesiredColor);
+  margin-top:50px;
 }
 .navbar
 {
@@ -93,12 +105,7 @@ body{
     color: #eae3e3;
     text-shadow: 0 0 3px var(--DesiredColor);
 }
-   hr{
-    height: 1px;
-    color: #eae3e3;
-    background-color: #eae3e3;
-    border: none;
-   }
+
     #AboutText{
       width: 100%; 
    border-bottom: 1px solid white; 
@@ -111,10 +118,7 @@ body{
       padding:0 10px; 
       border-radius:10px;
   }
-    h5{
-  color:var(--DesiredColor);
-  margin-top:50px;
-}
+ 
 #WhiteText
 {
   color: #eae3e3;
@@ -154,9 +158,10 @@ body{
 .Background-Image-About{
   margin-bottom:-100px;
 }
+
+/*Animations*/
+
     @keyframes SediJedanAnimation {
-    /*from {background-image: url('../pictures/BEFORE.jpg')}
-    to {background-image: url('../pictures/AFTER.jpg')}*/
     0%,16%
     {
     background-image: url('../Images/SediJedan2.jpeg')
