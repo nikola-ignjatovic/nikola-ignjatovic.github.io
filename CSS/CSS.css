@@ -26,7 +26,6 @@ hr{
 }
 .nav-link
 {
-    padding-bottom:2%;
     color: #eae3e3;
     transition: all 0.2s linear;
     font-size:110%;
@@ -157,7 +156,6 @@ hr{
 .Background-Image-About{
   margin-bottom:-100px;
 }
-
 /*Animations*/
 
     @keyframes SediJedanAnimation {
@@ -223,7 +221,7 @@ hr{
           height:215px;
         }
         }
-        @media only screen and (max-width: 344px) {
+        @media only screen and (max-width: 367px) {
           .Background-Image{
             height:260px;
           }
