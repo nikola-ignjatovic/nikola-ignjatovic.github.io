@@ -5,8 +5,7 @@ body{
 }
 hr{
   height: 1px;
-  color: #eae3e3;
-  background-color: #eae3e3;
+  background: #eae3e3;
   border: none;
  }
  h5{
@@ -108,13 +107,13 @@ hr{
 
     #AboutText{
       width: 100%; 
-   border-bottom: 1px solid white; 
+   border-bottom: 1px solid #eae3e3; 
    line-height: 0.1em;
    margin-top:10 0 20px;
    margin-bottom:50px;
     }
     #AboutText span { 
-      background:#fff; 
+      background:#eae3e3; 
       padding:0 10px; 
       border-radius:10px;
   }
@@ -134,7 +133,6 @@ hr{
 }
 .MyImage
 {
-  border: 5px solid white;
   border-radius:50%;
   width:200px;
 }
@@ -142,8 +140,8 @@ hr{
 .MyImagee::after{
   flex: 1;
   content: '';
-  height: 5px;
-  background:#eae3e3;
+  height: 2px;
+  background: #eae3e3;
 }
 .MyImagee{
   display: flex;
