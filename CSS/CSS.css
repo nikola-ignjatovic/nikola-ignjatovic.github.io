@@ -36,7 +36,7 @@ hr{
     color: var(--DesiredColor);
 }
 .Background-Image{
-    background-size:100%;
+    width:100%;
 }
 .navbar-toggler{
     border:0px;   
@@ -134,6 +134,7 @@ hr{
 }
 .MyImage
 {
+  border: 5px solid white;
   border-radius:50%;
   width:200px;
 }
@@ -141,7 +142,7 @@ hr{
 .MyImagee::after{
   flex: 1;
   content: '';
-  height: 1px;
+  height: 5px;
   background:#eae3e3;
 }
 .MyImagee{
@@ -211,7 +212,7 @@ hr{
 
     @media only screen and (max-width: 670px) {
       .Background-Image{
-        height:2500px;
+        height:250px;
       }
     }
     @media only screen and (max-width: 570px) {
