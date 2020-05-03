@@ -221,7 +221,7 @@ hr{
           height:215px;
         }
         }
-        @media only screen and (max-width: 367px) {
+        @media only screen and (max-width: 344px) {
           .Background-Image{
             height:260px;
           }
